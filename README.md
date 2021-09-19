@@ -15,7 +15,17 @@ In order to compare the outcomes based on their launch dates, we needed to first
 We took these data and put them into a Pivot table where we further broke down what month the campaign was launched to see if there were any trends for success based on month of the year that a campaign was launched. After What we found is that there appears to be some correlation between the launch month and its success or failure. The most successful campaigns were launched in May, June, and July, with some slightly less successful campaigns in April and August. There does not appear to be a relationship between launch month and the failed or canceled campaigns since the data is relatively flat on the line graph. ![Theater Outcomes vs. Launch](/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
-We also evaluated the outcomes of Play Kickstarter campaings based on the goal amount they set. 
+We also evaluated the outcomes of all Play Kickstarter campaigns based on the goal amount they set. This was to see if there were any Goals ranges that had more success or failure compared to others. In order to get an accurate view of the data, first we needed to separate our date into uniform ranges based on the goal amounts. Here we used the following ranges:
+ ![Goal Range Values](/GoalRanges.png)
+In a new sheet in Excel, we created a chart for the number of successful, failed, and canceled play campaigns in each of the goal amount ranges. The formula we used for this analysis was "=COUNTIFS(Kickstarter!$D:$D, ">=1000",Kickstarter!$D:$D,"<=4999", Kickstarter!$F:$F, "Successful", Kickstarter!$R:$R, "plays"). This formula means that we are counting the number of values in that meet the "if, then" criteria that was given. In this case, the first criteria is that the goal amount of the campaign is greater than, or equal to $1000, and less than, or equal to $4999. The second criteria is that the campaign is "successful" and last it must be in the "play" subcategory. We repeated variations on this formula for all of the goal ranges. Then repeated the analysis for the "failed" and "canceled" plays in the Kickstarter list. 
+
+Once all plays had been sorted by goal amount and outcome, we calculated the percentage of the "successful", "failed", and "canceled" plays in each goal range. This was done by taking the number of plays with a given outcome in a range and dividing by the total number of plays in that range (For this I used the formula "=IFERROR(ROUND(((B2/E2)*100), 1), 0)" this rounded the value to the first decimal place and made any values divided by 0 become 0 instead of an error). The result of these analyses was this chart.
+![Goals vs. Outcomes Chart](/Goals_vs_Outcomes_Chart.png)
+
+In order to make this data more easily accessible visually, I created a line chart to show the percentage of each outcome broken down by the goal amount. 
+![Outcomes by Goal](/Outcomes_vs_Goals.png)
+
+
 
 ### Challenges and Difficulties Encountered
 
