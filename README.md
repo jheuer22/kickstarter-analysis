@@ -1,5 +1,6 @@
 # kickstarter-analysis
-Performing analysis on kickstarter data to uncover trends 
+Performing analysis on Kickstarter data to uncover trends 
+
 ## Overview of Project
 
 ### Purpose
@@ -28,6 +29,11 @@ In order to make this data more easily accessible visually, I created a line cha
 
 
 ### Challenges and Difficulties Encountered
+I ran into a few challenges while completing this challenge. First, I had some issues with the details of some of the formulas. For example, I had issues with the =IFS( ) formula with the use of parentheses and commas. I had to look it up and do a bit or trial and error with my equations before I was able to get the equation to work. I have not worked in Excel extensively, so the syntax of the formulas was tripping me up. It became easier once I had done it more and understood the purpose for each part of the formula. 
+I also had completed the entire Outcomes vs. Goals chart and had started the line chart before I realized that I had accidentally used the "Pledged" column amount for the first criteria in the =IFS( ) formula instead of the "Goal" amount column, which was what we needed. I had to go back and redo each of the formulas in the cells by hand, which was great additional practice for the =IFS ( ) formula! 
+
+Another Challenge I encountered was when I was making the Pivot Chart from the Pivot Table and needed to get to have my rows in terms of months. I tried all kinds of combinations of variables after doing some google searches for help. I was finally able to have "months" show up as an option under the rows option. I am still not entirely sure what I did, but think it was using the years and the date created at the same time. Either way, I feel more confident in my ability to work through issues after completing this challenge. I had several times where I was trudging my way through and coming up with error after error, but I was able to work through it and come to the correct outcome, which feels great!
+
 
 ## Results
 
