@@ -39,8 +39,16 @@ Another Challenge I encountered was when I was making the Pivot Chart from the P
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
+Some conclusions can be drawn from the data on Outcomes based on Launch Date. First, it that it appears that Kickstarter Campaigns that are launches in May, June, and July are the most successful. There does not appear to be any launch time relationship with the failed campaigns indicating. The least amount of successful campaigns were launched in December, indicating that a launch around the winter holiday season may not be as successful as a late spring or summer launch. 
+
 - What can you conclude about the Outcomes based on Goals?
+
+Based on the data of the Outcomes of Play campaigns based on their goal amount, it appears that campaigns with a goal of less than $15,000 seem to have the most success. Above $15,000 there is more failed campaigns than successful ones, with a few exceptions in the $35,000 to $45,000 range. This indicates that a goal of less than $15,000 would be best for future Play Kickstarter campaigns.  
 
 - What are some limitations of this dataset?
 
+Some limitations of this data set are that we are not able to distinguish the types of plays that are being proposed. We have a lot of quantitative data about where they are located, when they launched and what their goals are, but we do not have any information on the quality of the Kickstarter campaign. What genre of play was being proposed? Did the goal match the necessary production value?  Was there marketing around the campaign launch? Is there a fanbase to tap into? This type of data is more difficult to analyze but it would be a helpful next step for someone to research if they wanted to know what separated the successful campaigns from the failed ones. 
+
 - What are some other possible tables and/or graphs that we could create?
+
+There were a couple other tables and graphs that I think would be helpful with this analysis. First, I think it would be helpful to look at the year over year trends to see if there have been any changes in the amounts of money donated and the number of successful campaigns. I also think it would be helpful to look beyond the play subcategory to see if there are similar trends time of year and outcomes in other subcategories. In other words, it there a best time of year to launch for all subcategories or is there something unique about the play category that is influencing the trends we saw.  
